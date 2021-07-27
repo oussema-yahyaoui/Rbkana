@@ -1,7 +1,20 @@
+import { useRef, useState } from "react"
 import "./rejester.scss"
 
 
 export default function Register(){
+    const [email,setEmail] = useState("")
+    const [password,setPassword]=useState("")
+
+
+    const emailRef = useRef()
+
+    const handelFun=()=>{
+      setEmail(emailRef.current.value)
+    }
+    const handelFinish=()=>{
+        setPassword(passwRef.current.value)
+      }
    return (
        <div className="register">
            <div className="top">
@@ -18,11 +31,22 @@ export default function Register(){
            <p>
                Ready to watch, Enter your email to create or restart your membership.
            </p>
+           {
+               !email ?(
+
            <div className="input">
-               <input type="email" placeholder="email adress"></input>
-           <button className="registerbutton">Let The Fun Begin</button>
+               <input type="email" placeholder="email adress" ref={emailRef}></input>
+           <button className="registerbutton" onClick={handelFun}>Let The Fun Begin</button>
            
            </div>
+               ):(
+                <form className="input">
+                <input type="password" placeholder="password" ref={passwRef}></input>
+            <button className="registerbutton" onClick={handelFinish}>welcome</button>
+            
+            </form>
+               )
+           }
        </div>
        </div>
    )
