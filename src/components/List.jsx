@@ -4,9 +4,9 @@ export default function List(){
     return (
         <div className="list">
         <span className="listTitle">keep Watching ...</span> 
-        <div className="wrapper">
+        <div className="listwrapper">
             {/* icon arrow  */}
-            <div className="container">
+            <div className="listcontainer">
                 <ListItem/>
                 <ListItem/>
                 <ListItem/>

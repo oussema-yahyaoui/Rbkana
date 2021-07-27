@@ -4,6 +4,7 @@
   height: 120px;
   background-color: whitesmoke;
   margin: 5px;
+ 
 }
 
 /**************** list***********/
@@ -13,15 +14,17 @@
 }
 
 .listTitle {
-  color: white;
+  color: burlywood;
   font-size: 20px;
   font-weight: 500;
   margin-left: 50px;
 }
 
-.container {
+.listcontainer {
   margin-left: 50px;
-  display: flex;
+  /* make it horizontal flex */
+  display: flex; 
+  /* max-content: make the list item out of 100% width */
   width: max-content;
 }
 /**************** Featured ***********/
