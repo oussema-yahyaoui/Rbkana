@@ -5,9 +5,12 @@ export default function Register(){
    return (
        <div className="register">
            <div className="top">
+               <div className="wrapper">
+
            <img className="logo" src="https://media.comicbook.com/2020/06/lucifer-netflix-season-5-premiere-date-1225724.jpeg?auto=webp&width=1200&height=628&crop=1200:628,smart"
             alt="" />
         <button className="loginbutton">Sign In</button>
+            </div>
        </div>
        <div className="container">
            <h1>movies,tv shos.and more.</h1>
