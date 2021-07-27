@@ -1,13 +1,14 @@
 import { useRef, useState } from "react"
-import "./rejester.scss"
+import "./login.scss"
 
 
-export default function Register(){
+export default function login(){
     const [email,setEmail] = useState("")
     const [password,setPassword]=useState("")
 
 
     const emailRef = useRef()
+    const passwRef=useRef()
 
     const handelFun=()=>{
       setEmail(emailRef.current.value)
