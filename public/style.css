@@ -8,70 +8,66 @@
 }
 .navbar{
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     width: 100%;  
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 .container{
-    padding: 0px 50px;
+    padding: 0px 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 70px;
+    height: 75px;
 }
 .left{
     display: flex;
     align-items: center;
 }
 img{
-    height:25px;
-    margin-right: 40px;
+    height:30px;
+    margin-right: 45px;
 }
 span{
     margin-right: 20px;
     cursor: pointer;
 }
-span{
+.ic{
     margin-right: 20px;
     cursor: pointer;
 }
 .right{
     display: flex;
     align-items: center;
-    icon{
-        margin: 0 px 15px;
-        cursor: pointer;
-    }
+}
+
+.icons{
+    margin: 0px 15px;
+    cursor: pointer;
 }
 img{
-    width: 30px;
-    height:30px ;
-    border-radius: 5px;
+    width: 35px;
+    height:35px ;
+    border-radius: 4px;
     object-fit: cover;
     cursor: pointer;
 }
-.profile{
-  .options{
+
+.nav-profile:hover{
    display: none;
    background-color:#0b0b0b;
    border-radius:5px;
+   flex-direction: column;
+   position: absolute;
+  
    } 
 
-   span{
-       padding: 10px;
-       cursor: pointer;
-   }
-   &:hover{
-       .options{
-           display: flex;
-           
-           position:absolute;
-       }
-   }
+.home1{
+    padding: 10px;
+    cursor: pointer;
 }
-.options:hover{
-    color:red;
-    flex-directions:column;
-} 
+ 
 
 
 
