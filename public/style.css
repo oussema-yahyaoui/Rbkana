@@ -1,0 +1,79 @@
+/**************** listItem **********/
+.listItem {
+  width: 225 px;
+  height: 120px;
+  background-color: whitesmoke;
+  margin: 5px;
+}
+
+/**************** list***********/
+.list {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.listTitle {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 50px;
+}
+
+.container {
+  margin-left: 50px;
+  display: flex;
+  width: max-content;
+}
+/**************** Featured ***********/
+.featured {
+  height: 90vh;
+  position: relative;
+}
+
+.category {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.fimg1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.info {
+  width: 35%;
+  position: absolute;
+  left: 50px;
+  bottom: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.fimg2 {
+  width: 400px;
+}
+.desc {
+  margin: 20px;
+}
+.buttons {
+  display: flex;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+span {
+  margin-left: 5px;
+}
