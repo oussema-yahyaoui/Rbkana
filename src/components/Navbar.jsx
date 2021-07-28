@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="container">
            <div className="left">
            <img className="logo"
-            // src="./logo2.png"
+            src="https://photos.google.com/photo/AF1QipM1iy0-6Wuc1KO9YF2ZVqrv92r97MMuxT415zvz"
             alt=""
           />
           <span className="home1">Home</span>
