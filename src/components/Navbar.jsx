@@ -5,8 +5,8 @@ const Navbar = () => {
     return (
         <div className="container">
            <div className="left">
-           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png"
+           <img className="logo"
+            // src="./logo2.png"
             alt=""
           />
           <span className="home1">Home</span>
@@ -19,7 +19,7 @@ const Navbar = () => {
                <Search className="icons"/>
                <span className="ic">KID</span>
                <Notifications className="icons"/>
-               <img src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=50" alt=""/>
+               <img className="imgnav" src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=50" alt=""/>
                <div className="nav-profile">
                <ArrowDropDown className="icons"/>
                <div className="nav-option">

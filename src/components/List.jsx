@@ -5,7 +5,7 @@ export default function List(){
         <div className="list">
         <span className="listTitle">keep Watching ...</span> 
         <div className="listwrapper">
-            {/* icon arrow  */}
+            {/* icon arrow  css 51min  */}
             <div className="listcontainer">
                 <ListItem/>
                 <ListItem/>
